@@ -8,8 +8,9 @@ The goal of this repository is to both merge and move the [Discord Feedback Dark
 
 ## Preview
 
-![Feedback after](./images/screenshots/feedback_after.png)
-![Support after](./images/screenshots/support_after.png)
+| Feedback | Support |
+|----------|---------|
+| ![Feedback after](./images/screenshots/feedback_after.png) | ![Support after](./images/screenshots/support_after.png) |
 
 ## To-do
 
