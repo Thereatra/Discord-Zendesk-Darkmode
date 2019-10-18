@@ -1,6 +1,6 @@
 # Discord Zendesk Darkmode
 
-A dark theme for Discord's feedback page. It's easier on the eyes and generally adheres better to Discord's design principles.
+A dark theme for Discord's Zendesk pages. It's easier on the eyes and generally adheres better to Discord's design principles.
 
 ## Initial goal
 
@@ -9,6 +9,7 @@ The goal of this repository is to both merge and move the [Discord Feedback Dark
 ## Preview
 
 ![Feedback after](./images/screenshots/feedback_after.png)
+![Support after](./images/screenshots/support_after.png)
 
 ## To-do
 
@@ -16,12 +17,19 @@ The goal of this repository is to both merge and move the [Discord Feedback Dark
 
 - [ ] Update descriptions on Userstyles.org
 - [ ] Provide a combined usercss version
-- [ ] Adhere better to Discord's dark theme
+- [ ] Adhere better to Discord's dark theme design
 - [ ] Provide installation instructions
 
-### Feedback
+### Feedback theme
 
 - [x] Migrate theme from Userstyles.org
 - [x] Provide a preview
 - [ ] Provide a usercss version
-- [ ] Autoupdating
+- [ ] Auto-updating
+
+### Support theme
+
+- [x] Migrate theme from Userstyles.org
+- [x] Provide a preview
+- [ ] Provide a uservss version
+- [ ] Auto-updating
