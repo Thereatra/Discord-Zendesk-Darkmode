@@ -32,5 +32,5 @@ The goal of this repository is to both merge and move the [Discord Feedback Dark
 
 - [x] Migrate theme from Userstyles.org
 - [x] Provide a preview
-- [ ] Provide a uservss version
+- [ ] Provide a usercss version
 - [ ] Auto-updating
