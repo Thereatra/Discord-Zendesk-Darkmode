@@ -36,15 +36,15 @@ Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](http
 
 ### Full theme
 
-💾 [Install manually](./zendesk-dark.css) with no support for automatic updates. The style is in Mozilla format.
+💾 [Install manually](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/zendesk-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
 ### Feedback only
 
-💾 [Install manually](./feedback/feedback-dark.css) with no support for automatic updates. The style is in Mozilla format.
+💾 [Install manually](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/feedback/feedback-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
 ### Support only
 
-💾 [Install manually](./support/support-dark.css) with no support for automatic updates. The style is in Mozilla format.
+💾 [Install manually](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/support/support-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
 <br>
 
