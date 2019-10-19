@@ -1,17 +1,4 @@
-@-moz-document regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/community\\/.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/search.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/subscriptions.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/posts.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/community_comments.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/comments.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/requests.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/community\\/.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/search.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/subscriptions.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/posts.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/community_comments.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/comments.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/requests.*") {
+@-moz-document regexp("https?:\/\/( support | support-dev )\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/( community | search | subscriptions | posts | community_comments | comments | requests ).*") {
 
     /*----- Site Header -----*/
     .header {
@@ -385,26 +372,7 @@ regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a
     }
 }
 
-@-moz-document regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?(\\?.+)?"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/search.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/categories\\/.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/sections\\/.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/articles\\/.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/subscriptions.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/posts.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/community_comments.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/comments.*"),
-regexp("https?:\\/\\/support\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/requests.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?(\\?.+)?"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/search.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/categories\\/.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/sections\\/.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/articles\\/.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/subscriptions.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/posts.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/community_comments.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/comments.*"),
-regexp("https?:\\/\\/support-dev\\.discordapp\\.com\\/hc\\/[a-zA-Z]{0,10}\\-?([a-zA-Z]{0,10})?\\/requests.*") {
+@-moz-document regexp("https?:\/\/( support | support-dev )\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?( \/( search | categories | sections | articles | subscriptions | posts | community_comments | comments | requests ).* | (\?.+)? )") {
 
     /*----- Site Header -----*/
     .header {
