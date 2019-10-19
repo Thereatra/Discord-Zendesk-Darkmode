@@ -1,4 +1,4 @@
-@-moz-document regexp("https?:\/\/( support | support-dev )\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?( \/( search | categories | sections | articles | subscriptions | posts | community_comments | comments | requests ).* | (\?.+)? )") {
+@-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?(\/(search|categories|sections|articles|subscriptions|posts|community_comments|comments|requests).*|(\?.+)?)") {
 
     /*----- Site Header -----*/
     .header {

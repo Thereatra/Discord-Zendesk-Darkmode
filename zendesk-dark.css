@@ -1,8 +1,8 @@
-@-moz-document regexp("https?:\/\/( support | support-dev )\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/( community | search | subscriptions | posts | community_comments | comments | requests ).*") {
+@-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/(community|search|subscriptions|posts|community_comments|comments|requests).*") {
 
     /*----- Site Header -----*/
     .header {
-        background-color: rgb(28, 28, 28);
+        background-color: #1c1c1c;
         padding: 0 5%;
         width: 100%;
         max-width: unset;
@@ -40,10 +40,6 @@
         background-color: #4a4c53;
     }
 
-
-
-
-
     /*----- Site Body -----*/
     body {
         background-color: #37393f;
@@ -64,7 +60,7 @@
     }
 
     .vote-voted::before {
-        color: rgba(114, 137, 218, 1);
+        color: #7289da;
     }
 
     .vote-voted:hover::before {
@@ -151,10 +147,6 @@
         background-color: inherit;
     }
 
-
-
-
-
     /*----- Main navbar -----*/
     ol.breadcrumbs li:first-child:before {
         filter: invert(87%);
@@ -190,7 +182,7 @@
     }
 
     .community-follow [role="button"] {
-        color: rgba(114, 137, 218, 1);
+        color: #7289da;
     }
 
     .community-follow [role="button"]:hover {
@@ -203,29 +195,25 @@
 
     .community-follow [role="button"][aria-selected="true"]:hover {
         background-color: inherit;
-        border-color: rgba(114, 137, 218, 1);
-        color: rgba(114, 137, 218, 1);
+        border-color: #7289da;
+        color: #7289da;
     }
 
     .community-follow [role="button"][aria-selected="true"]:focus {
         background-color: inherit;
-        border-color: rgba(114, 137, 218, 1);
-        color: rgba(114, 137, 218, 1);
+        border-color: #7289da;
+        color: #7289da;
     }
 
     .community-follow [role="button"][aria-selected="true"]:hover::after {
-        border-left: 1px solid rgba(114, 137, 218, 1);
-        color: rgba(114, 137, 218, 1);
+        border-left: 1px solid #7289da;
+        color: #7289da;
     }
 
     .community-follow [role="button"][aria-selected="true"]:focus::after {
-        border-left: 1px solid rgba(114, 137, 218, 1);
-        color: rgba(114, 137, 218, 1);
+        border-left: 1px solid #7289da;
+        color: #7289da;
     }
-
-
-
-
 
     /*----- Frontpage header -----*/
     .dropdown-menu {
@@ -247,10 +235,6 @@
         background-color: #3d3d42;
         color: #c4bdbd;
     }
-
-
-
-
 
     /*----- Frontpage -----*/
     .blocks-item {
@@ -300,10 +284,6 @@
         border-top: 1px solid #2f3236;
     }
 
-
-
-
-
     /*----- My activities -----*/
     .table tr {
         border-bottom: 1px solid #2f3236;
@@ -311,7 +291,7 @@
 
     .subscriptions-unsubscribe a:hover {
         background-color: inherit;
-        border: 1px solid rgba(114, 137, 218, 1);
+        border: 1px solid #7289da;
         margin: -1px;
     }
 
@@ -351,13 +331,9 @@
         border: none;
     }
 
-
-
-
-
     /*----- Frontpage footer -----*/
     .button-large:hover {
-        background-color: rgba(114, 137, 218, 1);
+        background-color: #7289da;
         box-shadow: 0 9px 30px rgba(0, 0, 0, 0.3);
         position: relative;
         top: -5px;
@@ -372,7 +348,7 @@
     }
 }
 
-@-moz-document regexp("https?:\/\/( support | support-dev )\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?( \/( search | categories | sections | articles | subscriptions | posts | community_comments | comments | requests ).* | (\?.+)? )") {
+@-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?(\/(search|categories|sections|articles|subscriptions|posts|community_comments|comments|requests).*|(\?.+)?)") {
 
     /*----- Site Header -----*/
     .header {
