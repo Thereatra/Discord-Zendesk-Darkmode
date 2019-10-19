@@ -57,6 +57,7 @@ Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](http
 - [ ] Adhere better to Discord's dark theme design
 - [x] Provide installation instructions
 - [ ] Add contribution guidelines
+- [ ] Convert to less
 
 ### Feedback theme
 
