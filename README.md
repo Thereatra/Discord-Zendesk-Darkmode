@@ -4,7 +4,7 @@ A dark theme for Discord's Zendesk pages. It's easier on the eyes and generally 
 
 ## Initial goal
 
-The goal of this repository is to both merge and move the [Discord Feedback Dark](https://userstyles.org/styles/165795) & [Discord Support Dark](https://userstyles.org/styles/166961) themes to a centralized location, and to provide a way for users to modify and add to the themes, should it be needed. This also means that the themes on Userstyles.org will not receive any further updates.
+The goal of this repository is to both merge the [Discord Feedback Dark](https://userstyles.org/styles/165795) & [Discord Support Dark](https://userstyles.org/styles/166961) themes and to move them to a centralized location, this will in turn provide a way for users to more easily modify and share improvements of the themes. This also means that the themes on Userstyles.org will not receive any further updates.
 
 ## Preview
 
@@ -14,15 +14,31 @@ The goal of this repository is to both merge and move the [Discord Feedback Dark
 
 ## Installation
 
-Install Stylus for either [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or the browser of your choice, then install the theme using one of the following methods:
+Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or the browser of your choice, then install the desired version using one of the following methods.
+
+**UserCSS installation:**
+
+- Open the UserCSS install version, found below, of the theme you want to install.
+- Press the "Install style" button in the upper left corner.
+
+**Manual installation:**
+
+- Open the Stylus extension and click "Manage styles".
+- Click "Write new style" and give the style a name.
+- Open the manual install version, found below, of the theme you want to install.
+- Copy the whole style, `ctrl + A` then `ctrl + C`, then paste it into the newly created Stylus style `ctrl + V` and save it.
+
+### Full theme
+
+💾 [Install manually](./zendesk-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
 ### Feedback only
 
-[Install manually](./feedback/feedback-dark.css) with no support for automatic updates. The style is in Mozilla format.
+💾 [Install manually](./feedback/feedback-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
 ### Support only
 
-[Install manually](./support/support-dark.css) with no support for automatic updates. The style is in Mozilla format.
+💾 [Install manually](./support/support-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
 ## To-do
 
