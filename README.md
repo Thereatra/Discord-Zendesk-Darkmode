@@ -2,15 +2,21 @@
 
 A dark theme for Discord's Zendesk pages. It's easier on the eyes and generally adheres better to Discord's design principles.
 
+<br>
+
 ## Initial goal
 
 The goal of this repository is to both merge the [Discord Feedback Dark](https://userstyles.org/styles/165795) & [Discord Support Dark](https://userstyles.org/styles/166961) themes and to move them to a centralized location, this will in turn provide a way for users to more easily modify and share improvements of the themes. This also means that the themes on Userstyles.org will not receive any further updates.
+
+<br>
 
 ## Preview
 
 | Feedback | Support |
 |----------|---------|
 | ![Feedback after](./images/screenshots/feedback_after.png) | ![Support after](./images/screenshots/support_after.png) |
+
+<br>
 
 ## Installation
 
@@ -39,6 +45,8 @@ Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](http
 ### Support only
 
 💾 [Install manually](./support/support-dark.css) with no support for automatic updates. The style is in Mozilla format.
+
+<br>
 
 ## To-do
 
