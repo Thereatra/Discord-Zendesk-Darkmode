@@ -12,11 +12,15 @@ The goal of this repository is to both merge and move the [Discord Feedback Dark
 |----------|---------|
 | ![Feedback after](./images/screenshots/feedback_after.png) | ![Support after](./images/screenshots/support_after.png) |
 
+## Installation
+
+Coming soon...
+
 ## To-do
 
 ### General
 
-- [ ] Update descriptions on Userstyles.org
+- [x] Update descriptions on Userstyles.org
 - [ ] Provide a combined usercss version
 - [ ] Adhere better to Discord's dark theme design
 - [ ] Provide installation instructions
