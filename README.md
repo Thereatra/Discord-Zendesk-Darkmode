@@ -14,7 +14,15 @@ The goal of this repository is to both merge and move the [Discord Feedback Dark
 
 ## Installation
 
-Coming soon...
+Install Stylus for either [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or the browser of your choice, then install the theme using one of the following methods:
+
+### Feedback only
+
+[Install manually](./feedback/feedback-dark.css) with no support for automatic updates. The style is in Mozilla format.
+
+### Support only
+
+[Install manually](./support/support-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
 ## To-do
 
@@ -23,7 +31,8 @@ Coming soon...
 - [x] Update descriptions on Userstyles.org
 - [ ] Provide a combined usercss version
 - [ ] Adhere better to Discord's dark theme design
-- [ ] Provide installation instructions
+- [x] Provide installation instructions
+- [ ] Add contribution guidelines
 
 ### Feedback theme
 
