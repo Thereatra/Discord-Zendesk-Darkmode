@@ -22,12 +22,12 @@ The goal of this repository is to both merge the [Discord Feedback Dark](https:/
 
 Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or the browser of your choice, then install the desired version using one of the following methods.
 
-**UserCSS installation:**
+#### UserCSS installation:
 
 - Open the UserCSS install version, found below, of the theme you want to install.
 - Press the "Install style" button in the upper left corner.
 
-**Manual installation:**
+#### Manual installation:
 
 - Open the Stylus extension and click "Manage styles".
 - Click "Write new style" and give the style a name.
