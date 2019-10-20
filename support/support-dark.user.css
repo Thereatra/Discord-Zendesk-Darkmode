@@ -1,0 +1,377 @@
+/* ==UserStyle==
+@name           Discord Support Dark
+@namespace      github.com/Thereatra
+@version        1.0.0
+@description    A dark theme for Discord's Support pages. It's easier on the eyes and generally adheres better to Discord's design principles.
+@author         Thereatra (https://thereatra.com)
+@homepageURL    https://github.com/Thereatra/Discord-Zendesk-Darkmode
+@supportURL     https://github.com/Thereatra/Discord-Zendesk-Darkmode/issues
+@updateURL      https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/support/support-dark.user.css
+@license        GPL-3.0
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?(\/(search|categories|sections|articles|subscriptions|posts|community_comments|comments|requests).*|(\?.+)?)") {
+
+    /*----- Site Header -----*/
+    .header {
+        background-color: rgb(28, 28, 28);
+        padding: 0 5%;
+        width: 100%;
+        max-width: unset;
+    }
+
+    .logo img {
+        filter: invert(100%);
+    }
+
+    .nav-wrapper a {
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    .nav-wrapper a:hover {
+        color: #fff;
+        opacity: 1;
+    }
+
+    .user-info>[role="button"] {
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    .user-info>[role="button"]::after {
+        color: #fff;
+    }
+
+    .user-info>[role="button"]:hover {
+        color: #fff;
+        opacity: 1;
+    }
+
+    #user #user-dropdown {
+        background-color: #4a4c53;
+    }
+
+
+
+
+
+    /*----- Site Body -----*/
+    body {
+        background-color: #37393f;
+        color: #b9bbbe;
+    }
+
+    .container-divider {
+        border: none;
+    }
+
+    .search-results-list>li {
+        border-bottom: 1px solid #2f3236;
+    }
+
+    .search-results-list>li:first-child {
+        border-top: 1px solid #2f3236;
+    }
+
+    .meta-data {
+        color: #999;
+    }
+
+    .section-tree-title a {
+        color: #b9bbbe;
+    }
+
+    .article-list-item {
+        border-bottom: 2px solid #2f3236;
+    }
+
+    .article-list-item a {
+        color: #999;
+    }
+
+    .article-votes {
+        border-top: 2px solid #2f3236;
+    }
+
+    .button[aria-selected="true"]:hover {
+        background-color: inherit;
+        border-color: rgba(114, 137, 218, 1);
+    }
+
+    .button[aria-selected="true"]:focus {
+        background-color: rgba(114, 137, 218, 1);
+        border-color: rgba(114, 137, 218, 1);
+    }
+
+    .button[aria-selected="true"]:hover:focus {
+        background-color: inherit;
+        border-color: rgba(114, 137, 218, 1);
+    }
+
+    .button[aria-selected="true"]:hover::before {
+        color: rgba(114, 137, 218, 1);
+    }
+
+    .button[aria-selected="true"]:hover::after {
+        color: rgba(114, 137, 218, 1);
+    }
+
+    .article-relatives {
+        border-top: 2px solid #2f3236;
+    }
+
+    .article-body a:visited {
+        color: rgba(114, 137, 218, 1);
+    }
+
+    .form-field .nesty-input {
+        background-color: #4a4c53;
+        border: none;
+        color: #b9bbbe;
+    }
+
+    .form-field .nesty-input a {
+        background-color: #4a4c53;
+        color: #b9bbbe;
+    }
+
+    #request_custom_fields_360008125792 {
+        background-color: #4a4c53;
+        border: none !important;
+        color: #b9bbbe;
+    }
+
+    #request_custom_fields_360008125812 {
+        background-color: #4a4c53;
+        border: none !important;
+        color: #b9bbbe;
+    }
+
+    #request_custom_fields_360008222191 {
+        background-color: #4a4c53;
+        border: none !important;
+        color: #b9bbbe;
+    }
+
+    #request_subject {
+        background-color: #4a4c53;
+        border: none !important;
+        color: #b9bbbe;
+    }
+
+    #request_description {
+        background-color: #4a4c53;
+        border: none !important;
+        color: #b9bbbe;
+        font-weight: inherit !important;
+    }
+
+    #new_request input[type=submit] {
+        border: none;
+    }
+
+
+
+
+
+    /*----- Main navbar -----*/
+    ol.breadcrumbs li:first-child:before {
+        filter: invert(87%);
+    }
+
+    .breadcrumbs li a {
+        color: #b9bbbe;
+    }
+
+    .breadcrumbs li a:visited {
+        color: #b9bbbe;
+    }
+
+    .breadcrumbs li a:hover {
+        color: #fff;
+    }
+
+    .sidenav-item {
+        border: none;
+        background-color: #4a4c53;
+        color: #b9bbbe;
+    }
+
+    .sidenav-item:hover {
+        box-shadow: 0 5px 11px rgba(0, 0, 0, 0.3);
+    }
+
+    .sidenav-item.current-article {
+        border: none;
+    }
+
+    a.article-sidebar-item {
+        top: 0px;
+        background: inherit;
+        border: 1px solid;
+    }
+
+
+
+
+
+    /*----- Frontpage header -----*/
+    .dropdown-menu {
+        border: none;
+        background-color: #4a4c53;
+        border-radius: 5px;
+    }
+
+    .dropdown-menu [role="menuitem"] {
+        color: #999;
+    }
+
+    .dropdown-menu [role="menuitem"][aria-selected="true"] {
+        background-color: #3d3d42;
+        color: #c4bdbd;
+    }
+
+    .dropdown-menu [role="menuitem"]:hover {
+        background-color: #3d3d42;
+        color: #c4bdbd;
+    }
+
+    .hero {
+        background-image: url(https://discordapp.com/assets/8a6fb04a7de46f908adbb18c2b4b776b.svg), linear-gradient(0deg, #37393f, #1c1c1c);
+    }
+
+    .hero-inner h5 {
+        color: #b9bbbe;
+    }
+
+    .search input[type="search"] {
+        background-color: #4a4c53;
+        border: none;
+        border-radius: 5px;
+        height: 50px;
+        color: #b9bbbe;
+    }
+
+    .search input[type="search"]:focus {
+        color: #b9bbbe;
+    }
+
+    .search::before {
+        background-color: inherit;
+        color: #999;
+    }
+
+    ::placeholder {
+        color: #999;
+    }
+
+
+
+
+
+    /*----- Frontpage -----*/
+    .flex-item {
+        border: none;
+        border-radius: 5px;
+        background-color: #4a4c53;
+        box-shadow: none;
+    }
+
+    .flex-item:hover {
+        box-shadow: 0 9px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .flex-item h2 {
+        color: #b9bbbe;
+    }
+
+    .flex-item hr {
+        width: 100px;
+        background-color: #2f3236;
+        ;
+    }
+
+    .flex-item h3 {
+        color: #999;
+    }
+
+
+
+
+
+    /*----- My activities -----*/
+    .table tr {
+        border-bottom: 1px solid #2f3236;
+    }
+
+    .subscriptions-unsubscribe a:hover {
+        background-color: inherit;
+        border: 1px solid rgba(114, 137, 218, 1);
+        margin: -1px;
+    }
+
+    .table th,
+    .table th a {
+        color: #b9bbbe;
+    }
+
+    .my-activities-nav {
+        background-color: #2f3236;
+    }
+
+    .collapsible-nav-list li {
+        color: #b9bbbe;
+        font-weight: bold;
+    }
+
+    .collapsible-nav-list li[aria-selected="true"] {
+        color: #72767D;
+    }
+
+    .collapsible-nav-list li a {
+        color: #b9bbbe;
+    }
+
+    .my-activities-sub-nav {
+        border-bottom: 2px solid #2f3236;
+    }
+
+    select {
+        background-color: #4a4c53;
+        border: none;
+        color: #b9bbbe;
+    }
+
+    select:focus {
+        border: none;
+        background-color: #4a4c53;
+    }
+
+    .striped-list-title:visited {
+        color: #666;
+    }
+
+
+
+
+
+    /*----- Support tickets -----*/
+    .request-title {
+        border-bottom: 2px solid #2f3236;
+    }
+
+    .comment {
+        border-bottom: 2px solid #2f3236;
+    }
+
+    .request-sidebar {
+        background-color: #2f3236;
+        border-radius: 4px;
+    }
+
+    .request-details {
+        border-bottom: 1px solid #666;
+    }
+}

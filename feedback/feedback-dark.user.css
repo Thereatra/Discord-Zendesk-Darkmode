@@ -1,0 +1,362 @@
+/* ==UserStyle==
+@name           Discord Feedback Dark
+@namespace      github.com/Thereatra
+@version        1.0.0
+@description    A dark theme for Discord's Feedback pages. It's easier on the eyes and generally adheres better to Discord's design principles.
+@author         Thereatra (https://thereatra.com)
+@homepageURL    https://github.com/Thereatra/Discord-Zendesk-Darkmode
+@supportURL     https://github.com/Thereatra/Discord-Zendesk-Darkmode/issues
+@updateURL      https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/feedback/feedback-dark.user.css
+@license        GPL-3.0
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/(community|search|subscriptions|posts|community_comments|comments|requests).*") {
+
+    /*----- Site Header -----*/
+    .header {
+        background-color: #1c1c1c;
+        padding: 0 5%;
+        width: 100%;
+        max-width: unset;
+    }
+
+    .logo img {
+        filter: invert(100%);
+    }
+
+    .nav-wrapper a {
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    .nav-wrapper a:hover {
+        color: #fff;
+        opacity: 1;
+    }
+
+    .user-info>[role="button"] {
+        color: #fff;
+        opacity: 0.8;
+    }
+
+    .user-info>[role="button"]::after {
+        color: #fff;
+    }
+
+    .user-info>[role="button"]:hover {
+        color: #fff;
+        opacity: 1;
+    }
+
+    #user #user-dropdown {
+        background-color: #4a4c53;
+    }
+
+    /*----- Site Body -----*/
+    body {
+        background-color: #37393f;
+        color: #b9bbbe;
+    }
+
+    .container-divider {
+        border: none;
+    }
+
+    .vote-sum {
+        color: #999;
+    }
+
+    .vote-up::before,
+    .vote-down::before {
+        color: #999;
+    }
+
+    .vote-voted::before {
+        color: #7289da;
+    }
+
+    .vote-voted:hover::before {
+        color: #999;
+    }
+
+    .share a::before {
+        color: #999;
+    }
+
+    .comment {
+        border-bottom: 2px solid #2f3236;
+    }
+
+    .comment-callout {
+        color: #999;
+    }
+
+    .comment-sorter .dropdown-toggle {
+        color: #999;
+    }
+
+    .actions .dropdown-toggle::before {
+        color: #999;
+    }
+
+    .actions .dropdown-toggle:hover::before {
+        color: #999;
+        background-color: #4a4c53;
+    }
+
+    .comment-overview {
+        border-top: 2px solid #2f3236;
+        border-bottom: 2px solid #2f3236;
+    }
+
+    textarea {
+        border: none;
+        border-radius: 5px;
+        background-color: #4a4c53;
+    }
+
+    #hc-wysiwyg {
+        background: none;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #hc-wysiwyg [role="group"] {
+        padding: 0;
+    }
+
+    #hc-wysiwyg [role="toolbar"] {
+        background-color: #2f3236;
+        border: none;
+    }
+
+    #hc-wysiwyg [class^="wysiwyg-icon-"] {
+        color: #666;
+    }
+
+    #hc-wysiwyg [role="separator"] {
+        background: #666;
+    }
+
+    .mce-content-body {
+        background-color: #4a4c53;
+    }
+
+    .form-field input[type="text"] {
+        background-color: #4a4c53;
+        border: none;
+        color: #b9bbbe;
+    }
+
+    .form-field .nesty-input {
+        background-color: #4a4c53;
+        border: none;
+        color: #b9bbbe;
+    }
+
+    .button,
+    [role="button"] {
+        background-color: inherit;
+    }
+
+    /*----- Main navbar -----*/
+    ol.breadcrumbs li:first-child:before {
+        filter: invert(87%);
+    }
+
+    .breadcrumbs li a:visited {
+        color: #b9bbbe;
+    }
+
+    .breadcrumbs li a:hover {
+        color: #fff;
+    }
+
+    .search input[type="search"] {
+        background-color: #4a4c53;
+        border: none;
+        border-radius: 5px;
+        height: 50px;
+        color: #b9bbbe;
+    }
+
+    .search input[type="search"]:focus {
+        color: #b9bbbe;
+    }
+
+    .search::before {
+        background-color: inherit;
+        color: #999;
+    }
+
+    ::placeholder {
+        color: #999;
+    }
+
+    .community-follow [role="button"] {
+        color: #7289da;
+    }
+
+    .community-follow [role="button"]:hover {
+        color: #fff;
+    }
+
+    .community-follow [role="button"]:focus {
+        color: #fff;
+    }
+
+    .community-follow [role="button"][aria-selected="true"]:hover {
+        background-color: inherit;
+        border-color: #7289da;
+        color: #7289da;
+    }
+
+    .community-follow [role="button"][aria-selected="true"]:focus {
+        background-color: inherit;
+        border-color: #7289da;
+        color: #7289da;
+    }
+
+    .community-follow [role="button"][aria-selected="true"]:hover::after {
+        border-left: 1px solid #7289da;
+        color: #7289da;
+    }
+
+    .community-follow [role="button"][aria-selected="true"]:focus::after {
+        border-left: 1px solid #7289da;
+        color: #7289da;
+    }
+
+    /*----- Frontpage header -----*/
+    .dropdown-menu {
+        border: none;
+        background-color: #4a4c53;
+        border-radius: 5px;
+    }
+
+    .dropdown-menu [role="menuitem"] {
+        color: #999;
+    }
+
+    .dropdown-menu [role="menuitem"][aria-selected="true"] {
+        background-color: #3d3d42;
+        color: #c4bdbd;
+    }
+
+    .dropdown-menu [role="menuitem"]:hover {
+        background-color: #3d3d42;
+        color: #c4bdbd;
+    }
+
+    /*----- Frontpage -----*/
+    .blocks-item {
+        border: none;
+        border-radius: 5px;
+        background-color: #4a4c53;
+    }
+
+    .blocks-item:hover {
+        box-shadow: 0 9px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .blocks-item-title {
+        color: #b9bbbe;
+        font-weight: bold;
+    }
+
+    .meta-data {
+        color: #999;
+    }
+
+    .topic-header {
+        border-bottom: 1px solid #2f3236;
+    }
+
+    .striped-list-title:visited {
+        color: #666;
+    }
+
+    .striped-list-item {
+        border-bottom: 1px solid #2f3236;
+    }
+
+    .striped-list-count {
+        color: #999;
+    }
+
+    .striped-list-number {
+        color: #999;
+    }
+
+    .search-results-list>li {
+        border-bottom: 1px solid #2f3236;
+    }
+
+    .search-results-list>li:first-child {
+        border-top: 1px solid #2f3236;
+    }
+
+    /*----- My activities -----*/
+    .table tr {
+        border-bottom: 1px solid #2f3236;
+    }
+
+    .subscriptions-unsubscribe a:hover {
+        background-color: inherit;
+        border: 1px solid #7289da;
+        margin: -1px;
+    }
+
+    .table th,
+    .table th a {
+        color: #b9bbbe;
+    }
+
+    .my-activities-nav {
+        background-color: #2f3236;
+    }
+
+    .collapsible-nav-list li {
+        color: #b9bbbe;
+        font-weight: bold;
+    }
+
+    .collapsible-nav-list li[aria-selected="true"] {
+        color: #72767D;
+    }
+
+    .collapsible-nav-list li a {
+        color: #b9bbbe;
+    }
+
+    .my-activities-sub-nav {
+        border-bottom: 2px solid #2f3236;
+    }
+
+    select {
+        background: #4a4c53;
+        border: none;
+        color: #b9bbbe;
+    }
+
+    select:focus {
+        border: none;
+    }
+
+    /*----- Frontpage footer -----*/
+    .button-large:hover {
+        background-color: #7289da;
+        box-shadow: 0 9px 30px rgba(0, 0, 0, 0.3);
+        position: relative;
+        top: -5px;
+    }
+
+    .pagination li:hover:not(.pagination-current) {
+        background-color: #4a4c53;
+    }
+
+    .pagination li:hover:not(.pagination-current) a {
+        color: #b9bbbe;
+    }
+}
