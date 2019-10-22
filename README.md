@@ -55,8 +55,9 @@ Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](http
 
 - [x] Update descriptions on Userstyles.org
 - [x] Provide a combined UserCSS version
-- [ ] Adhere better to Discord's dark theme design
 - [x] Provide installation instructions
+- [ ] Adhere better to Discord's dark theme design
 - [ ] Add contribution guidelines
 - [ ] Convert to less
-- [ ] Automate versioning
+- [ ] Automatic versioning
+- [ ] Automatic generation of UserCSS versions
