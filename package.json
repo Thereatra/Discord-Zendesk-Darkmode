@@ -1,0 +1,20 @@
+{
+  "name": "discord-zendesk-darkmode",
+  "version": "1.0.1",
+  "author": "Thereatra",
+  "description": "🕯️ A dark theme for Discord's Zendesk pages",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/Thereatra/Discord-Zendesk-Darkmode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thereatra/Discord-Zendesk-Darkmode.git"
+  },
+  "scripts": {
+    "lint": "stylelint *.css **/*.css --formatter verbose",
+    "lint-fix": "stylelint **/*.css --fix --formatter verbose"
+  },
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}

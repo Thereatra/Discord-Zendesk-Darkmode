@@ -22,29 +22,29 @@ The goal of this repository is to both merge the [Discord Feedback Dark](https:/
 
 Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or the browser of your choice, then install the desired version using one of the following methods.
 
-#### UserCSS installation:
+### UserCSS installation
 
-- Open the UserCSS install version, found below, of the theme you want to install.
-- Press the "Install style" button in the upper left corner.
+1. Open the UserCSS install version, found below, of the theme you want to install.
+2. Press the "Install style" button in the upper left corner.
 
-#### Manual installation:
+### Manual installation
 
-- Open the Stylus extension and click "Manage styles".
-- Click "Write new style" and give the style a name.
-- Open the manual install version, found below, of the theme you want to install.
-- Copy the whole style, `ctrl + A` then `ctrl + C`, then paste it into the newly created Stylus style `ctrl + V` and save it.
+1. Open the Stylus extension and click "Manage styles".
+2. Click "Write new style" and give the style a name.
+3. Open the manual install version, found below, of the theme you want to install.
+4. Copy the whole style, `ctrl + A` then `ctrl + C`, then paste it into the newly created Stylus style `ctrl + V` and save it.
 
 ### Full theme
 
 💾 [Install UserCSS](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/zendesk-dark.user.css) which supports automatic updates.  
 💾 [Install manually](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/zendesk-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
-### Feedback only
+#### Feedback only
 
 💾 [Install UserCSS](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/feedback/feedback-dark.user.css) which supports automatic updates.  
 💾 [Install manually](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/feedback/feedback-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
-### Support only
+#### Support only
 
 💾 [Install UserCSS](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/support/support-dark.user.css) which supports automatic updates.  
 💾 [Install manually](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/support/support-dark.css) with no support for automatic updates. The style is in Mozilla format.
@@ -56,6 +56,7 @@ Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](http
 - [x] Update descriptions on Userstyles.org
 - [x] Provide a combined UserCSS version
 - [x] Provide installation instructions
+- [x] Add CSS linting
 - [ ] Adhere better to Discord's dark theme design
 - [ ] Add contribution guidelines
 - [ ] Convert to less
