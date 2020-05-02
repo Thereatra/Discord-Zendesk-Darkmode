@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "author": "Thereatra",
   "description": "🕯️ A dark theme for Discord's Zendesk pages",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "homepage": "https://github.com/Thereatra/Discord-Zendesk-Darkmode",
   "repository": {
     "type": "git",
