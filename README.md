@@ -50,12 +50,3 @@ Found a bug, something that is not in darkmode or something just not looking rig
 You can contribute by either reporting the issue or creating a pull request.
 
 **Before** working on a contribution please read the [Contributing guidelines](./.github/CONTRIBUTING.md).
-
-## To-do
-
-- [x] Add CSS linting
-- [x] Versioning
-- [x] Add contribution guidelines
-- [x] Automatic generation of UserCSS versions
-- [x] Create PR and Issue template
-- [ ] Update regex to work with discord.com instead of discordapp.com

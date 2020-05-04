@@ -1,3 +1,10 @@
+---
+name: Change request
+about: Create a request so the theme can be improved
+labels: enhancement
+
+---
+
 **Describe the change.**
 
 What should be changed? Why should it be changed?
