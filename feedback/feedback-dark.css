@@ -1,4 +1,8 @@
 @-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/(community|search|subscriptions|posts|community_comments|comments|requests).*") {
+  /**********************************************
+                   FEEDBACK PAGES
+  **********************************************/
+
   /* ----- Site Header ----- */
   .header {
     background-color: #1c1c1c;

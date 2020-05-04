@@ -1,6 +1,6 @@
 {
   "name": "discord-zendesk-darkmode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Thereatra",
   "description": "🕯️ A dark theme for Discord's Zendesk pages",
   "license": "MIT",
@@ -12,11 +12,13 @@
   "scripts": {
     "lint": "stylelint *.css **/*.css --formatter verbose",
     "lint-fix": "stylelint **/*.css --fix --formatter verbose",
-    "patch": "versions -g patch *.user.css **/*.user.css",
-    "minor": "versions -g minor *.user.css **/*.user.css",
-    "major": "versions -g major *.user.css **/*.user.css"
+    "patch": "versions -g patch .user.css **/.user.css && npm run usercss",
+    "minor": "versions -g minor .user.css **/.user.css && npm run usercss",
+    "major": "versions -g major .user.css **/.user.css && npm run usercss",
+    "usercss": "node -e \"require('concat')(['feedback/.user.css', 'feedback/feedback-dark.css'], 'feedback/feedback-dark.user.css'); require('concat')(['support/.user.css', 'support/support-dark.css'], 'support/support-dark.user.css'); require('concat')(['feedback/feedback-dark.css', 'support/support-dark.css'], 'zendesk-dark.css'); require('concat')(['.user.css', 'feedback/feedback-dark.css', 'support/support-dark.css'], 'zendesk-dark.user.css')\""
   },
   "devDependencies": {
+    "concat": "^1.0.3",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "versions": "^8.2.7"

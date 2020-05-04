@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Discord Feedback Dark
 @namespace      github.com/thereatra
-@version        1.0.2
+@version        1.0.3
 @description    A dark theme for Discord's Feedback pages. It's easier on the eyes and generally adheres better to Discord's design principles.
 @author         Thereatra (https://thereatra.com)
 @homepageURL    https://github.com/Thereatra/Discord-Zendesk-Darkmode
@@ -12,6 +12,10 @@
 ==/UserStyle== */
 
 @-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/(community|search|subscriptions|posts|community_comments|comments|requests).*") {
+  /**********************************************
+                   FEEDBACK PAGES
+  **********************************************/
+
   /* ----- Site Header ----- */
   .header {
     background-color: #1c1c1c;

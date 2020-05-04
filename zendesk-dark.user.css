@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Discord Zendesk Dark
 @namespace      github.com/thereatra
-@version        1.0.2
+@version        1.0.3
 @description    A dark theme for Discord's Zendesk pages. It's easier on the eyes and generally adheres better to Discord's design principles.
 @author         Thereatra (https://thereatra.com)
 @homepageURL    https://github.com/Thereatra/Discord-Zendesk-Darkmode
@@ -11,8 +11,11 @@
 @preprocessor   default
 ==/UserStyle== */
 
-/* Feedback */
 @-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/(community|search|subscriptions|posts|community_comments|comments|requests).*") {
+  /**********************************************
+                   FEEDBACK PAGES
+  **********************************************/
+
   /* ----- Site Header ----- */
   .header {
     background-color: #1c1c1c;
@@ -364,8 +367,11 @@
   }
 }
 
-/* Support */
 @-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?(\/(search|categories|sections|articles|subscriptions|posts|community_comments|comments|requests).*|(\?.+)?)") {
+  /**********************************************
+                   SUPPORT PAGES
+  **********************************************/
+
   /* ----- Site Header ----- */
   .header {
     background-color: rgb(28, 28, 28);

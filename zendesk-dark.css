@@ -1,5 +1,8 @@
-/* Feedback */
 @-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/(community|search|subscriptions|posts|community_comments|comments|requests).*") {
+  /**********************************************
+                   FEEDBACK PAGES
+  **********************************************/
+
   /* ----- Site Header ----- */
   .header {
     background-color: #1c1c1c;
@@ -351,8 +354,11 @@
   }
 }
 
-/* Support */
 @-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?(\/(search|categories|sections|articles|subscriptions|posts|community_comments|comments|requests).*|(\?.+)?)") {
+  /**********************************************
+                   SUPPORT PAGES
+  **********************************************/
+
   /* ----- Site Header ----- */
   .header {
     background-color: rgb(28, 28, 28);

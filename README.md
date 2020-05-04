@@ -7,13 +7,13 @@ Additionally, this move provides a way for users to more easily modify and share
 
 ## Preview
 
-| Feedback                                                 | Support                                           |
-|----------------------------------------------------------|---------------------------------------------------|
+| Feedback                                                 | Support                                                |
+|----------------------------------------------------------|--------------------------------------------------------|
 | ![Feedback dark](./images/screenshots/feedback_dark.png) | ![Support dark](./images/screenshots/support_dark.png) |
 
 ## Installation
 
-Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](https://addons.mozilla.org/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or the browser of your choice, then install the desired version using one of the following methods.
+Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](https://addons.mozilla.org/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or the browser of your choice, then install the desired theme version using one of the following methods.
 
 ### UserCSS installation
 
@@ -48,6 +48,5 @@ Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](http
 
 - [x] Add CSS linting
 - [x] Versioning
-- [ ] Adhere better to Discord's dark theme design
 - [ ] Add contribution guidelines
-- [ ] Automatic generation of UserCSS versions
+- [x] Automatic generation of UserCSS versions
