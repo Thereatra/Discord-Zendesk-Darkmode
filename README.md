@@ -44,9 +44,18 @@ Install [Stylus](https://github.com/openstyles/stylus) for either [Firefox](http
 [💾 Install UserCSS](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/support/support-dark.user.css) which supports automatic updates.  
 💾 [Install manually](https://raw.githubusercontent.com/Thereatra/Discord-Zendesk-Darkmode/master/support/support-dark.css) with no support for automatic updates. The style is in Mozilla format.
 
+## Contributing
+
+Found a bug, something that is not in darkmode or something just not looking right? Contributions are very welcome!  
+You can contribute by either reporting the issue or creating a pull request.
+
+**Before** working on a contribution please read the [Contributing guidelines](./.github/CONTRIBUTING.md).
+
 ## To-do
 
 - [x] Add CSS linting
 - [x] Versioning
-- [ ] Add contribution guidelines
+- [x] Add contribution guidelines
 - [x] Automatic generation of UserCSS versions
+- [ ] Create PR and Issue template
+- [ ] Update regex to work with discord.com instead of discordapp.com
