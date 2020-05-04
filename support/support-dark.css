@@ -1,4 +1,4 @@
-@-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?(\/(search|categories|sections|articles|subscriptions|posts|community_comments|comments|requests).*|(\?.+)?)") {
+@-moz-document regexp("https?:\/\/(support|support-dev)\.discord\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?(\/(search|categories|sections|articles|subscriptions|posts|community_comments|comments|requests).*|(\?.+)?)") {
   /**********************************************
                    SUPPORT PAGES
   **********************************************/
@@ -233,7 +233,7 @@
   }
 
   .hero {
-    background-image: url(https://discordapp.com/assets/8a6fb04a7de46f908adbb18c2b4b776b.svg), linear-gradient(0deg, #37393f, #1c1c1c);
+    background-image: url(https://discord.com/assets/8a6fb04a7de46f908adbb18c2b4b776b.svg), linear-gradient(0deg, #37393f, #1c1c1c);
   }
 
   .hero-inner h5 {

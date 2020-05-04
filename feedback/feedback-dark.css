@@ -1,4 +1,4 @@
-@-moz-document regexp("https?:\/\/(support|support-dev)\.discordapp\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/(community|search|subscriptions|posts|community_comments|comments|requests).*") {
+@-moz-document regexp("https?:\/\/(support|support-dev)\.discord\.com\/hc\/[a-zA-Z]{0,10}\-?([a-zA-Z]{0,10})?\/(community|search|subscriptions|posts|community_comments|comments|requests).*") {
   /**********************************************
                    FEEDBACK PAGES
   **********************************************/
