@@ -57,5 +57,5 @@ You can contribute by either reporting the issue or creating a pull request.
 - [x] Versioning
 - [x] Add contribution guidelines
 - [x] Automatic generation of UserCSS versions
-- [ ] Create PR and Issue template
+- [x] Create PR and Issue template
 - [ ] Update regex to work with discord.com instead of discordapp.com
